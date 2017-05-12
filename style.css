@@ -80,7 +80,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 290%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .container-content1 {
@@ -199,7 +199,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 290%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .container-content2 {
@@ -241,7 +241,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 290%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .container-content3 {
@@ -353,13 +353,88 @@ html, body {
     width: 100%;
 }
 
+/*==========================================RESPONSIVE=========================================*/
 
+/*====TABLET====*/
 
+@media only screen and (max-width: 770px) {
+    .container-1 {
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 95%);
+    width: 100%;
+    height: 145%;
+/*    background-color: #93ff93;*/
+    z-index: 0;
+    background-image: url(media/img-con1.png);
+    background-size: cover;
+    margin-top: 3%;
+}
+    
+    .container-1-content h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 290%;
+    margin-top: 10%;
+}
+ 
+.container-2 {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+    width: 100%;
+    height: 130%;
+/*    background-color: #93ff93;*/
+    z-index: 0;
+    background-image: url(media/img-con2.jpg);
+    background-size: cover;
+    margin-top: 7%;
+}
+    
+    .container-2-content h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 290%;
+    margin-top: 10%;
+}
+    
+}
 
+/*====PHONE====*/
 
-
-
-
+@media only screen and (max-width: 520px) {
+    .container-1 {
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 95%);
+    width: 100%;
+    height: 200%;
+/*    background-color: #93ff93;*/
+    z-index: 0;
+    background-image: url(media/img-con1.png);
+    background-size: cover;
+    margin-top: 3%;
+}
+    .container-1-content h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 290%;
+    margin-top: 30%;
+}
+    
+.container-2 {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+    width: 100%;
+    height: 190%;
+/*    background-color: #93ff93;*/
+    z-index: 0;
+    background-image: url(media/img-con2.jpg);
+    background-size: cover;
+    margin-top: 10%;
+}
+    
+    .container-2-content h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 290%;
+    margin-top: 30%;
+}
+    
+}
 
 
 
