@@ -30,12 +30,12 @@ html, body {
 }
 
 .content h1 {
+    cursor: default;
     font-size: 500%;
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     margin-bottom: 30px;
     font-weight: bolder;
-    cursor: default;
 }
 
 .content a {
